@@ -24,7 +24,7 @@
      ">
         <div style="
        position:relative;
-        border:2px solid red;
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
          margin-left:14%
     
         
@@ -83,7 +83,7 @@
      
     </div>
 
-    <div style="border:2px solid red;width:75vw;
+    <div style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;width:75vw;
      margin-left:14%;display:flex;flex-direction:row;
      text-align:start;
      gap:13px;
@@ -105,7 +105,7 @@
     margin:auto;
     margin-left:150px;
     justify-content:center;">
-        <div style="border:2px solid red;
+        <div style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         width:300px;height:290px;
        
        
@@ -115,30 +115,32 @@
         margin-left:8px;margin-bottom:5px;border-radius:8px;
         margin-top:-10px;background-color:#e2e5ea;
         border:none"> Add Bio</button>
-        <div style="display: flex; align-items: center;margin-left:8px">
-            <h5 style="margin-top:7px;font-weight: normal;gap:5px">
+        <div  
+        style="display: flex; align-items: center;margin-left:8px;">
+            <h5  id ="SchoolTag" style="margin-top:7px;font-weight: normal;gap:5px">
                 <i class="fa-solid fa-graduation-cap" style="color: grey;"></i>
                 Went to sitamarhi central school School,Sitamarhi
               </h5>
           </div>
           <div style="display: flex; align-items: center;margin-left:8px">
-            <h5  style="margin-top:-7px;font-weight: normal">
+            <h5  id="adrsTag"style="margin-top:-7px;font-weight: normal">
                 <i class="fa-solid fa-house-chimney" style="color: grey;"></i>
                 Lives in Chandigarh
               </h5>
           </div>
 
           <div style="display: flex; align-items: center;margin-left:8px">
-            <h5 style="margin-top:-7px;font-weight: normal;">
+            <h5 id="locationTag"style="margin-top:-7px;font-weight: normal;">
                 <i class="fa-solid fa-location-dot" style="color: grey;padding:2px "></i>
                 From Bihar
               </h5>
           </div>
           <div style="padding:6px">
-            <button style="width:280px;height:34px;padding:5px;
+            <button  id="editBtn" style="width:280px;height:34px;padding:5px;
             margin-left:7px;border-radius:8px;background-color:#e2e5ea;
-            border:none"> Edit details</button>
-            <button style="width:280px;height:34px;
+            border:none" onclick="EditFunction()"> Edit details</button>
+            
+            <button id="AddFeaturedBtn" style="width:280px;height:34px;
             margin-left:7px;border-radius:8px;margin-top:10px;background-color:#e2e5ea;
             border:none">Add Featured</button>
           </div>
@@ -148,12 +150,28 @@
     </div>
 
 
-        <div  style="border:2px solid red;
-        width:500px;height:290px"></div>
+   <div style=" width:400px;height:auto ;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+  <h3 style="color:black; padding:2px; margin-top:2px;">Prerna Kumari</h3>
+
+  <video width="100%" height="450px" style="max-width: 400px;" margin-top="3px" controls>
+    <source src="video/30d304063c047e7d96cfb74a4ec23e5f.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video width="100%" height="400px" style="max-width: 400px;" margin-top="3px" controls>
+    <source src="video/30d304063c047e7d96cfb74a4ec23e5f.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video width="100%" height="400px" style="max-width: 400px;" margin-top="3px" controls>
+    <source src="video/30d304063c047e7d96cfb74a4ec23e5f.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
     </div>
+
+
     </div>
 
-    
+    <script src="profile.js"></script>
 </body>
 </html>

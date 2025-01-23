@@ -15,20 +15,57 @@
     h4:hover {
         color:#0B68FF;
     }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 3 columns */
+      gap: 5px; /* Spacing between grid items */
+      padding: 10px;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius:5px;
+      max-width: 500px;
+      margin-top:50px; /* Limit width for 3 columns */
+    }
 
+    .container img {
+      width: 100%;
+      height: auto;
+      border-radius:5px;
+      object-fit: cover;
+    }
 </style>
 
 <body>
     <div style="max-width:87.5vw;
    
      ">
+
+     <!-- <div style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;width:75vw;
+     ;display:flex;flex-direction:row;
+     text-align:start;
+     gap:13px;
+     width:1235px;
+     height:50px;
+     background-Color:#0B68FF
+    
+    
+     
+     ">
+        <h4 style=" color:white;margin-left:12%">Post</h4>
+        <h4 style=" color:white">About</h4>
+        <h4 style=" color:white">Friends</h4>
+            <h4 style=" color:white">Photos</h4>
+                <h4 style=" color:white">Videos</h4>
+                    <h4 style=" color:white"> Check-ins</h4>
+                        <h4 style=" color:white">More</h4>
+
+    </div> -->
+
         <div style="
        position:relative;
        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-         margin-left:14%
-    
-        
-        " >
+         margin-left:14%">
+
             <img style="
             width:75vw;
              height:75vh;
@@ -88,16 +125,18 @@
      text-align:start;
      gap:13px;
      margin-top:18px;
+     background-Color:#0B68FF;
+     border-radius: 5px;
     
      
      ">
-        <h4>Post</h4>
-        <h4>About</h4>
-        <h4>Friends</h4>
-            <h4>Photos</h4>
-                <h4>Videos</h4>
-                    <h4>Check-ins</h4>
-                        <h4>More</h4>
+        <h4 style=" color:white; margin-left:10px">Post</h4>
+        <h4 style=" color:white;">About</h4>
+        <h4 style=" color:white;">Friends</h4>
+            <h4 style=" color:white;">Photos</h4>
+                <h4 style=" color:white;">Videos</h4>
+                    <h4 style=" color:white;">Check-ins</h4>
+                        <h4 style=" color:white;">More</h4>
 
     </div>
     <div style="display:flex;
@@ -110,7 +149,7 @@
        
        
         ">
-        <h4 style="margin-left:8px;margin-top:10px;" >Intro</h4>
+        <h4 style="margin-left:8px;margin-top:10px;color:#0B68FF" >Intro</h4>
         <button style="width:280px;height:34px;
         margin-left:8px;margin-bottom:5px;border-radius:8px;
         margin-top:-10px;background-color:#e2e5ea;
@@ -141,8 +180,19 @@
             border:none" onclick="EditFunction()"> Edit details</button>
             
             <button id="AddFeaturedBtn" style="width:280px;height:34px;
-            margin-left:7px;border-radius:8px;margin-top:10px;background-color:#e2e5ea;
+            margin-left:7px;border-radius:8px;margin-top:10px;background-color:#0B68FF;color:#e2e5ea;
             border:none">Add Featured</button>
+          </div>
+          <div class="container">
+            <img style="width:130px;height:100px" src="https://cdn.prod.website-files.com/670e0ce761868ff9e8915a06/675dde03d45e32fdb6e1f27e_67165b722c4466e663f01afb_65f863d2b8a8f574defc0c2e_Best_Lehenga_Captionsfor_Instagram_9e40e1e6c0_eeoahp.webp" alt="Photo 1">
+            <img style="width:130px;height:100px" src="https://media.istockphoto.com/id/1285211058/photo/bahla-fort-bahla-sultanate-of-oman.jpg?s=612x612&w=0&k=20&c=p17zQOiFeRfwcfIjv9lmCeSsgvgUnK1QZ_t-xntlCBU=" alt="Photo 2">
+            <img style="width:130px;height:100px"src="https://www.tripsavvy.com/thmb/y2p7m2dqW3HGhYq8yiEYeJl1jeo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-673530462-591c41cc5f9b58f4c05ef4d3.jpg" alt="Photo 3">
+            <img style="width:130px;height:100px"src="https://marketplace.canva.com/EAFmhdAGpWA/1/0/1600w/canva-black-and-pink-gradient-motivational-quote-desktop-wallpaper-PrgxdKbp8Jk.jpg" alt="Photo 4">
+            <img style="width:130px;height:100px" src="https://png.pngtree.com/thumb_back/fh260/background/20240321/pngtree-aesthetic-night-sky-hd-phone-image_15669052.jpg" alt="Photo 5">
+            <img style="width:130px;height:100px"src="https://wallpapergod.com/images/hd/aesthetic-1920X1080-wallpaper-x6ijznr0kamuf0td.jpeg" alt="Photo 6">
+            <img style="width:130px;height:100px"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoNFt3bCi_242MBlT5tXn3J0IicRrLU138ZQ&s" alt="Photo 7">
+            <img style="width:130px;height:100px" src="https://img.pikbest.com/wp/202344/autumn-leaves-aesthetic-captivating-as-a-background-and-texture_9931761.jpg!w700wp" alt="Photo 8">
+            
           </div>
 
          
@@ -150,18 +200,18 @@
     </div>
 
 
-   <div style=" width:400px;height:auto ;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+   <div style=" width:500px;height:auto ;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
   <h3 style="color:black; padding:2px; margin-top:2px;">Prerna Kumari</h3>
 
-  <video width="100%" height="450px" style="max-width: 400px;" margin-top="3px" controls>
-    <source src="video/30d304063c047e7d96cfb74a4ec23e5f.mp4" type="video/mp4">
+  <video style="width:400px" height="350px" margin-top="3px" controls>
+    <source src="video/5595a119f63c546f1d5cf8b5a8c4ea4c.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <video width="100%" height="400px" style="max-width: 400px;" margin-top="3px" controls>
-    <source src="video/30d304063c047e7d96cfb74a4ec23e5f.mp4" type="video/mp4">
+  <video width="100%" height="350px" style="max-width: 400px;" margin-top="3px" controls>
+    <source src="video/da859e3954d33d33a55a2ad22efc5fb5.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <video width="100%" height="400px" style="max-width: 400px;" margin-top="3px" controls>
+  <video width="100%" height="350px" style="max-width: 400px;" margin-top="3px" controls>
     <source src="video/30d304063c047e7d96cfb74a4ec23e5f.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
